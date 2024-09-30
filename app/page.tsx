@@ -5,7 +5,7 @@ export default function Page() {
             <header className="flex items-center justify-between p-5">
                
                 <h1 className="text-3xl font-bold underline display-none"><span>MT iBrow & Beauty</span>
-                    <img height={`200px`} src="/img/mt_ibrow_beauty_logo.png" alt="MT iBrow Beauty"/>
+                    <img height={`200px`} src="/img/mt_ibrow_beauty.png" alt="MT iBrow Beauty"/>
                 </h1>
                 
             </header>

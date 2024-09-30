@@ -25,8 +25,11 @@
   }
    */
 
-body{background: #090b0f; color: white; text-align: center; font-size: 20px;  font-family: var(--font-roboto);}
-body.text-bg-dark {  background: black !important; color: #d0d0d6 !important}
+body{background: #090b0f url('/img/dot-grid.png'); color: white; text-align: center; font-size: 20px;  font-family: var(--font-roboto);}
+body.text-bg-dark {  color: #d0d0d6 !important;
+  background-color: #090b0f;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23b1893d' fill-opacity='0.02'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+} /**https://heropatterns.com */
 main{padding: 2rem;}
 span{display: none;}
 a.facebook{
