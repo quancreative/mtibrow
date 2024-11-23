@@ -2,10 +2,10 @@
 export default function Page() {
     return (
         <>
-            <header className="flex items-center justify-between p-5">
+            <header className="items-center  p-5">
                
-                <h1 className="text-3xl font-bold underline display-none"><span>MT iBrow & Beauty</span>
-                    <img height={`200px`} src="/img/mt_ibrow_beauty.png" alt="MT iBrow Beauty"/>
+                <h1 className="text-3xl font-bold underline"><span className=" display-none">MT iBrow & Beauty</span>
+                    <img  src="/img/Ibrow_beauty.png" alt="MT iBrow Beauty"/>
                 </h1>
                 
             </header>
@@ -73,7 +73,7 @@ function Item({children, title, price, imgSrc}){
                 <h3 className="mb-0">{title} ${price}</h3>
                 <div> {children}</div>
             </div>
-            <div className="col-auto  md:col-6 lg:col-12">
+            <div className="col-auto  md:col-6 lg:col-12 fill">
                 <img src={imgSrc} />
             </div>
         </div>
