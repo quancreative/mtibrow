@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
     --foreground-rgb: 0, 0, 0;
@@ -102,6 +105,16 @@ h3{padding-bottom: 50px;  display: block;
   border-radius: 2rem;
 }
 
+.item-card .fill{ display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden}
+
+.fill img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
 footer{
   background: #090b0f;
   background:
@@ -126,6 +139,8 @@ section.address-section{
   justify-content: center;
   align-items: center;  
   background: #000;
+  width: 100%;
+  min-width: 100%;;
 }
 
 address {  font-size: 5rem;
@@ -134,6 +149,8 @@ address {  font-size: 5rem;
   border: 0.4rem solid #fff;  border-radius: 2rem;
   text-transform: uppercase;
   animation: flicker 100.5s infinite alternate;
+  width: 100%;
+  min-width: 100%;;
 }
   
 address::-moz-selection {
@@ -150,6 +167,11 @@ address:focus {
   outline: none;
 }
 
+.phone-number{
+  width: 100%;
+  min-width: 100%;
+  display: block;;
+}
 /* Animate neon flicker */
 @keyframes flicker {
     

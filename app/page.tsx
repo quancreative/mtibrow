@@ -58,8 +58,8 @@ function MTContent(){
                     <h2 className="mb-0 gradient-1">Welcome to MT IBROW & BEAUTY.</h2>
                     <p className="card-text mb-auto typography-hero-features">I’m MT NGUYEN, a passionate brow artist dedicated to perfecting your look through expert eyebrow design. With years of experience and specialized training in brow shaping, tinting, and microblading, I offer personalized services to help you achieve beautifully defined brows that complement your unique style. At MT IBROW & BEAUTY , we believe that every brow has a story, and we’re here to craft yours with precision and care. Explore my services and book a consultation today to start your journey to flawless brows!"</p>
                 </div>
-                <div className="col-auto d-none d-lg-block">
-                    <img height="600px"   src="/img/MT.jpeg" alt="MT Nguyen" />
+                <div className="lg:col-6 fill">
+                    <img width={'100%'}  src="/img/MT.jpeg" alt="MT Nguyen" />
                 </div>
             </div>
         </div>
@@ -68,13 +68,13 @@ function MTContent(){
 
 function Item({children, title, price, imgSrc}){
     return(
-        <div className="item-card row g-0 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div className="item-card row g-0 grid lg:grid-col-2 overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
             <div className="col p-5 d-flex flex-column position-static">
                 <h3 className="mb-0">{title} ${price}</h3>
                 <div> {children}</div>
             </div>
-            <div className="col-auto d-none d-lg-block">
-            <img height="600px" src={imgSrc} />
+            <div className="col-auto  md:col-6 lg:col-12">
+                <img src={imgSrc} />
             </div>
         </div>
     )
@@ -82,13 +82,15 @@ function Item({children, title, price, imgSrc}){
 
 function Address(){
     return (
-        <section className="address-section z-10 w-full max-w-5xl items-center justify-between font-mono lg:flex">
+        <section className="address-section z-10 w-full max-w-5xl items-center justify-between font-mono">
             <address>
                 1900 Waterdam Plaza Dr, <br />
                 Building #3<br />
                 Canonsburg PA 15317
             </address>
-            <h3><a href="tel:724-557-2335">(724) 557 2335</a></h3>
+            <div className="phone-number w-full max-w-5xl items-center justify-between font-mono ">
+                <h3><a href="tel:724-557-2335">(724) 557 2335</a></h3>
+            </div>
         </section>
     )
 }
