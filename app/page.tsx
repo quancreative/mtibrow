@@ -26,8 +26,8 @@ export default function Page() {
 
                     <div className="row">
                         <Item title={`OMBRÉ POWDER`} price={`350`} imgSrc={`/img/MT_ibrow_beauty_TOUCH_UP.jpg`}>
-                            <p><strong>(TOUCH UP  AFTER 5 WEEK $150 & last ALMOST 2 YEARS)</strong></p>
-                            <p> OMBRE POWDER IS SHADING THAT IS DARKER AT THE TAILS AND LIGHTER AT THE FRONT. THE FINAL HEALED RESULTS IS POWDERED FILLED BROWS SIMILAR TO THE LOOK OF MAKEUP. OUR SIGNATURE SOFT, MISTY FRONTS CREATE A NATURAL AND SUBTLE LOOK. THIS METHOD SUITS EVERYONE INCLUDING ALL SKIN TYPES.</p>
+                            <p><strong>( TOUCH UP AFTER 5 WEEK $150 & last ALMOST 2 YEARS )</strong></p>
+                            <p>OMBRE POWDER IS SHADING THAT IS DARKER AT THE TAILS AND LIGHTER AT THE FRONT. THE FINAL HEALED RESULTS IS POWDERED FILLED BROWS SIMILAR TO THE LOOK OF MAKEUP. OUR SIGNATURE SOFT, MISTY FRONTS CREATE A NATURAL AND SUBTLE LOOK. THIS METHOD SUITS EVERYONE INCLUDING ALL SKIN TYPES.</p>
                         </Item>
 
                         <Item title={`MICROSHADING`} price={`450`} imgSrc={`/img/MT_ibrow_beauty_MICROSHADING.jpeg`}>
@@ -35,7 +35,7 @@ export default function Page() {
                         </Item>
 
                         <Item title={`MICROBLADING `} price={`350`} imgSrc={`/img/IMG_1057.jpeg`}>
-                            <p><strong>  ( COMBINATION): $550 ( TOUCH UP AFTER 5 WEEK $150 & LAST ALMOST 2 YEARS)</strong></p>
+                            <p><strong>( TOUCH UP AFTER 5 WEEK $150 & LAST ALMOST 2 YEARS )</strong></p>
                             <p>Microblading uses a blade-shaped tool with a row of tiny, barely visible needles to create hair-like strokes along your brows while depositing pigment into your skin.</p>
                         </Item>
                     </div>
